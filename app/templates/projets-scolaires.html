@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Site web de Jules Chevenet</title>
+  </head>
+
+  <body>
+    <div id="bloc_page">
+
+      <header>
+        <div id="titre_header">
+          <h1>Site web de Jules Chevenet</h1>
+        </div>
+        <nav id=menu>
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="#">Projets Scolaires</a></li>
+            <li><a href="proj-pers">Projets Personnels</a></li>
+            <li><a href="cv">CV</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="articles">
+            <article class="projet_scol">
+                <header class="head_article">
+                    <h4 class="titre_article">Projet avec l'entreprise Take a Waste : Application web pour l'optimisation de la gestion des déchets</h4>
+                    <h6 class ="date_article">Novembre 2020 - Avril 2021</h6>
+                </header>
+                <section class="body_article">
+                    <p class ="p_article">Mon équipe a obtenu le prix du meilleur projet entreprise de l'ESIEE pour ce projet.</p>
+                    <p class ="p_article">Durant six mois, j'ai travaillé avec l'entreprise Take a waste pour leur permettre d'automatiser deux tâches :<br/>
+                      - récupérer et nettoyer des données sur internet sur les flux de déchets<br/>
+                      - visualiser les données via un tableau de bord</p>
+                    <p class ="p_article">Pour le premier objectif, un logiciel de scraping automatique des données a été réalisé.<br/>
+                      Concernant le second, une application web a été créée pour permettre au client de l'entreprise de visualiser leurs flux de déchets.</p>
+                      <p class ="p_article">Vous pouvez retrouver le pitch présenté lors du concours des meilleurs projet ESIEE et une vidéo résumé du projet.
+                      Pour plus d'informations, n'hésitez pas a me contacter.</p>
+                      <video class="video_article" src="../static/video/pitch.mp4" controls></video>
+                      <video class="video_article" src="../static/video/VIDEO_TaW_version_longue_finale_compressee (1).mp4" controls></video>
+                </section>
+
+                <footer class = "footer_article">
+                  <p class = "p_footer">Technologies utilisées : python, flask, postgreSQL, HTLM, CSS, Heroku, Zoho Analytics</p>
+                </footer>
+            </article>
+
+          <article class="projet_scol">
+            <header class="head_article">
+              <h4 class="titre_article">Projet scolaire : Concours Kaggle</h4>
+              <h6 class ="date_article">Avril 2021 - Mai 2021</h6>
+          </header>
+          <section class="body_article">
+            <p class ="p_article">L’objectif du concours Kaggle est de prédire la note sur dossier, obtenue par un candidat pour l’entrée dans une école d’ingénieur, à l’aide des données déjà fournies (moyennes, appréciations, …). Un ensemble d'entraînement était à notre disposition, il contenait le score à prédire et les données d’entrée des candidats, son but est de permettre de prédire les notes d’un ensemble de test en fonction des données fournies.
+              Le classement Kaggle est effectué sur le RSME entre les scores prédits de l’ensemble de test et les scores réels (inconnus pour nous).</p>
+            <p class = "p_article"><center><a class = lien_article href="https://www.kaggle.com/c/dsia-spring2021" >Lien du concours</a></center></p>
+            <p class = "p_article">Pour plus d'informations, n'hésitez pas a me contacter.</p>
+            <p class = "p_article">Rapport du projet : </p>
+            <center><embed class = "pdf_article" src="../static/pdf/Rapport_apprentissage_automatique_2_Chevenet_Meunier.pdf" type='application/pdf'/></center>
+          </section>
+          <footer class = "footer_article">
+            <p class = "p_footer">Technologie utilisée : python</p>
+          </footer>
+          </article>
+
+            <article class="projet_scol">
+              <header class="head_article">
+                <h4 class="titre_article">Projet scolaire : Data Visualisation sur une base de données de sportifs olympiques</h4>
+                <h6 class ="date_article">Septembre 2020 - Octobre 2020</h6>
+            </header>
+            <section class="body_article">
+              <p class ="p_article">Mon camarade François Meunier et moi avont réalisé un outil de visualisation de données olympiques, dans le but de faciliter  et affiner les recherches spécifiques. Il est désormait disponible à tous sur internet.<br/>
+              Le projet est susceptible d'évoluer dans le temps, une version 2.0 avec beaucoup plus d'options est en cours de développement.</p>
+              <p class = "p_article"><center><a class = lien_article href="https://rdashboardesiee.shinyapps.io/app-1/" >Accéder à l'outil</a></center></p>
+              <p class = "p_article">Pour plus d'informations, n'hésitez pas a me contacter.</p>
+              <p class = "p_article">Exemple de visualisation : </p>
+              <img id = "image_DashR" width=60% height=60% src="../static/images/dashboardR.png">
+            </section>
+            <footer class = "footer_article">
+              <p class = "p_footer">Technologie utilisée : Rstudio</p>
+            </footer>
+            </article>
+
+            <article class="projet_scol">
+              <header class="head_article">
+                <h4 class="titre_article">Projet scolaire : Algorithmes de Clustering et Prédictions</h4>
+                <h6 class ="date_article">Mai 2020 - Juin 2020</h6>
+            </header>
+            <section class="body_article">
+              <p class ="p_article">L'objectif de ce projet était de prédire, grâce au clustering, le prochain film à voir d'un abonné Netflix en fonction de ceux des notes qu'il a donné au film qu'il a vu.</p>
+              <p class = "p_article">Voici la vidéo de présentation du projet. Pour plus d'informations, n'hésitez pas a me contacter.</p>
+              <video class="video_article" src="../static/video/26_le_clustering_video.mp4" controls></video>
+            </section>
+            <footer class = "footer_article">
+              <p class = "p_footer">Technologie utilisée : Python</p>
+            </footer>
+            </article>
+
+       </section>
+      <footer>
+        <div id =titre_footer>
+          <h4>Réseaux sociaux :</h4>
+        </div>
+        <div>
+          <nav id = endlink>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/jules-chevenet-4441b4189/">LinkedIn</a></li>
+              <li><a href="https://www.kaggle.com/juleschevenet">Kaggle</a></li>
+              <li><a href="https://github.com/ptitchev">GitHub</a></li>
+              <li><a href="https://git.esiee.fr/chevenej">GitESIEE</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
